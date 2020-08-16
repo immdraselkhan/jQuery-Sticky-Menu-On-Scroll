@@ -1,0 +1,13 @@
+<!-- Start jQuery Sticky Menu -->
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 100) {
+      $("#main-menu").addClass("navbar-fixed-top");
+    } else {
+      $("#main-menu").removeClass("navbar-fixed-top");
+    }
+  });
+});
+</script>
+<!-- End jQuery Sticky Menu -->
